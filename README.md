@@ -14,10 +14,10 @@
 1. Install Python 3.10+ with PIP
 2. Run command to install or active virtual environment for everytime:
 ```
-pip install -r requirements.txt
 pip install virtualenv
 virtualenv venv
 . venv/bin/activate
+pip install -r requirements.txt
 ```
 3. Run `flask run` to start the web at `http://127.0.0.1:5000`, or press F5 from VSCODE
 4. Login: admin / ********
