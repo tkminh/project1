@@ -1,3 +1,5 @@
+import string
+
 def sum1(a: int, b: int):
     return a + b
 
@@ -9,3 +11,6 @@ def slice_from_start(txt: str, index: int):
 
 def slice_from_end(txt: str, index: int):
     return txt[index:]
+
+def title(txt: str):
+    return string.capwords(txt)

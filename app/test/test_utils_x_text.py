@@ -9,3 +9,6 @@ def test_slice_from_start():
 def test_slice_from_end():
     assert slice_from_end('hello world', 3) == 'lo world'
     assert slice_from_end('hello world', 99) == ''
+
+def test_title():
+    assert title('hello world') == 'Hello World'
