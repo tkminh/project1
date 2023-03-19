@@ -22,6 +22,7 @@ pip install -r requirements.txt
 3. Run `flask run` to start the web at `http://127.0.0.1:5000`, or press F5 from VSCODE
 4. Login: admin / ********
 5. Press Ctrl + C to exit.
+6. API: `http://127.0.0.1:5000/swagger/v1`
 
 
 ## Coding Habit
@@ -30,3 +31,5 @@ pip install -r requirements.txt
 3. Code must run pass on local test before commit
 4. Test code by create a file name `test_*.py` in test directory
 5. Run `pytest -s app/test/test_*.py`
+
+## Changelog
